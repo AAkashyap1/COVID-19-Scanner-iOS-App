@@ -1,0 +1,1 @@
+# COVID-Scanner-iOS-App
