@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WM-U9-5vY">
+                                <rect key="frame" x="87" y="289.5" width="240" height="327"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19 Scanner" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMT-24-u52">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="155"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="43"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="61"/>
+                                        </variation>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FinalVirusImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="DW9-TB-vwd">
+                                        <rect key="frame" x="54.5" y="163" width="131" height="126"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="DW9-TB-vwd" firstAttribute="top" secondItem="TMT-24-u52" secondAttribute="bottom" constant="8" symbolic="YES" id="SAa-Bc-gJc"/>
+                                    <constraint firstItem="TMT-24-u52" firstAttribute="height" secondItem="9WM-U9-5vY" secondAttribute="height" multiplier="0.474006" id="VAF-Hf-1A1"/>
+                                    <constraint firstItem="TMT-24-u52" firstAttribute="top" secondItem="9WM-U9-5vY" secondAttribute="top" id="a0o-wT-eGL"/>
+                                    <constraint firstItem="DW9-TB-vwd" firstAttribute="height" secondItem="9WM-U9-5vY" secondAttribute="height" multiplier="0.385321" id="aIc-cU-XwQ"/>
+                                    <constraint firstItem="DW9-TB-vwd" firstAttribute="top" secondItem="TMT-24-u52" secondAttribute="bottom" constant="8" symbolic="YES" id="djm-bi-wYI"/>
+                                    <constraint firstItem="TMT-24-u52" firstAttribute="centerX" secondItem="9WM-U9-5vY" secondAttribute="centerX" id="htM-QA-STf"/>
+                                    <constraint firstItem="DW9-TB-vwd" firstAttribute="centerX" secondItem="9WM-U9-5vY" secondAttribute="centerX" id="lyU-3y-qnV"/>
+                                    <constraint firstItem="DW9-TB-vwd" firstAttribute="width" secondItem="9WM-U9-5vY" secondAttribute="width" multiplier="0.545833" id="nNW-FR-gaw"/>
+                                    <constraint firstItem="TMT-24-u52" firstAttribute="width" secondItem="9WM-U9-5vY" secondAttribute="width" id="zsP-TJ-sul"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.12549019610000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9WM-U9-5vY" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.364955" id="4HZ-rI-V5A"/>
+                            <constraint firstItem="9WM-U9-5vY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="6Q4-rd-coD"/>
+                            <constraint firstItem="9WM-U9-5vY" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.57971" id="KOT-GT-Er3"/>
+                            <constraint firstItem="9WM-U9-5vY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zen-b1-64t"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FinalVirusImage.png" width="865" height="864"/>
+    </resources>
+</document>
