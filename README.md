@@ -1,1 +1,4 @@
-# COVID-Scanner-iOS-App
+# COVID-19 Scanner iOS App
+2020 Ananth Kashyap
+
+The 
